@@ -1,6 +1,6 @@
 # DAVANet
 
-Code repo for the paper "DAVANet: Stereo Deblurring with View Aggregation" (CVPR'19, Oral).&nbsp; [[arXiv]](https://arxiv.org/pdf/1904.05065.pdf)&nbsp;  [[Project Page]](https://shangchenzhou.com/projects/davanet/)&nbsp;
+Code repo for the paper "DAVANet: Stereo Deblurring with View Aggregation" (CVPR'19, Oral).&nbsp; <a href="https://arxiv.org/pdf/1904.05065.pdf" target="_blank">[arXiv]</a> &nbsp; [[Project Page]](https://shangchenzhou.com/projects/davanet/)&nbsp;
 
 <p align="center">
   <img width=95% src="https://user-images.githubusercontent.com/14334509/57180102-f9c4b700-6eb7-11e9-927b-42a81ad39d7d.png">
@@ -16,7 +16,7 @@ Download the dataset (192.5GB, unzipped 202.2GB) from [[Data Website]](https://s
 
 ## Pretrained Models
 
-You could download the pretrained model (34.8MB) of DAVANet from [[Here]](https://hiteducn0-my.sharepoint.com/:u:/g/personal/sczhou_hit_edu_cn/EWDpyZwVB5BGmuXENWPWp6IBLOqOgaiSqxmUKbVRHHKZLQ?e=GWX8KN). 
+You could download the pretrained model (34.8MB) of DAVANet from [[Here]](https://hiteducn0-my.sharepoint.com/:u:/g/personal/sczhou_hit_edu_cn/EWDpyZwVB5BGmuXENWPWp6IBh53UV4OrC-XqOzNunjbC4Q). 
 
 ## Prerequisites
 
