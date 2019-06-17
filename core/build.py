@@ -121,7 +121,7 @@ def bulid_net(cfg):
     dispnet_lr_scheduler = torch.optim.lr_scheduler.MultiStepLR(dispnet_solver,
                                                                    milestones=cfg.TRAIN.DISPNET_LR_MILESTONES,
                                                                    gamma=cfg.TRAIN.LEARNING_RATE_DECAY)
-    deblurnet_lr_scheduler = torch.optim.lr_scheduler.MultiStepLR(dispnet_solver,
+    deblurnet_lr_scheduler = torch.optim.lr_scheduler.MultiStepLR(deblurnet_solver,
                                                                    milestones=cfg.TRAIN.DEBLURNET_LR_MILESTONES,
                                                                    gamma=cfg.TRAIN.LEARNING_RATE_DECAY)
 
