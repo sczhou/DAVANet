@@ -101,4 +101,8 @@ ENV/
 .mypy_cache/
 
 # PyCharm
-.idea/ 
+.idea
+
+# Checkpoints
+ckpt/
+
