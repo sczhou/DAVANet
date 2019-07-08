@@ -130,7 +130,7 @@ def test_stereodeblurnet(cfg, epoch_idx, test_data_loader, dispnet, deblurnet, t
                 test_writer.add_image('StereoDeblurNet/MAST_OUT'+str(batch_idx+1), torch.cat([mask_out_left, mask_out_right], 2), epoch_idx+1)
             if cfg.NETWORK.PHASE == 'test':
                 img_left_dir = os.path.join(cfg.DIR.OUT_PATH,'stereo',names[0],'left')
-                img_right_dir = os.path.join(cfg.DIR.OUT_PATH,'stereo',names[0],'left')
+                img_right_dir = os.path.join(cfg.DIR.OUT_PATH,'stereo',names[0],'right')
 
                 if not os.path.isdir(img_left_dir):
                     mkdir(img_left_dir)
@@ -143,6 +143,7 @@ def test_stereodeblurnet(cfg, epoch_idx, test_data_loader, dispnet, deblurnet, t
                                 np.uint8),
                             [int(cv2.IMWRITE_PNG_COMPRESSION), 5])
 
+                print(img_right_dir + '/' + str(save_num).zfill(4) + '.png')
                 cv2.imwrite(img_right_dir + '/' + str(save_num).zfill(4) + '.png',
                             (imgs_prd[1].clamp(0.0, 1.0)[0].cpu().numpy().transpose(1, 2, 0) * 255.0).astype(
                                 np.uint8), [int(cv2.IMWRITE_PNG_COMPRESSION), 5])

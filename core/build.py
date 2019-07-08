@@ -135,7 +135,7 @@ def bulid_net(cfg):
     log_dir      = output_dir % 'logs'
     ckpt_dir     = output_dir % 'checkpoints'
     train_writer = SummaryWriter(os.path.join(log_dir, 'train'))
-    test_writer   = SummaryWriter(os.path.join(log_dir, 'test'))
+    test_writer  = SummaryWriter(os.path.join(log_dir, 'test'))
 
 
     if cfg.NETWORK.PHASE in ['train', 'resume']:
