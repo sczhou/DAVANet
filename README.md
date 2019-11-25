@@ -1,6 +1,6 @@
 # DAVANet
 
-Code repo for the paper "DAVANet: Stereo Deblurring with View Aggregation" (CVPR'19, Oral).&nbsp; [[arXiv]](https://arxiv.org/pdf/1904.05065.pdf) &nbsp; [[Project Page]](https://shangchenzhou.com/projects/davanet/)&nbsp;
+Code repo for the paper "DAVANet: Stereo Deblurring with View Aggregation" (CVPR'19, Oral).&nbsp; [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_DAVANet_Stereo_Deblurring_With_View_Aggregation_CVPR_2019_paper.pdf) &nbsp; [[Project Page]](https://shangchenzhou.com/projects/davanet/)&nbsp;
 
 <p align="center">
   <img width=95% src="https://user-images.githubusercontent.com/14334509/57180102-f9c4b700-6eb7-11e9-927b-42a81ad39d7d.png">
@@ -80,10 +80,10 @@ python runner.py
 If you find DAVANet, or Stereo Blur Dataset useful in your research, please consider citing:
 
 ```
-@inproceedings{Zhou2019Stereodeblur,
-  title={DAVANet: Stereo Deblurring with View Aggregation},
+@inproceedings{zhou2019davanet,
+  title={{DAVANet}: Stereo Deblurring with View Aggregation},
   author={Zhou, Shangchen and Zhang, Jiawei and Zuo, Wangmeng and Xie, Haozhe and Pan, Jinshan and Ren, Jimmy},
-  booktitle={CVPR},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   year={2019}
 }
 ```
