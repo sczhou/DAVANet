@@ -16,7 +16,7 @@ Download the dataset (192.5GB, unzipped 202.2GB) from [[Data Website]](https://s
 
 ## Pretrained Models
 
-You could download the pretrained model (34.8MB) of DAVANet from [[Here]](https://hiteducn0-my.sharepoint.com/:f:/g/personal/sczhou_hit_edu_cn/EqhdLrwXbStCiQl00Em1ak8B-8TL63t1_gMooImX80zfxA). 
+You could download the pretrained model (34.8MB) of DAVANet from [[Here]](https://drive.google.com/file/d/1oVhKnPe_zrRa_JQUinW52ycJ2EGoAcHG/view?usp=sharing). 
 
 (Note that the model does not need to unzip, just load it directly.)
 
