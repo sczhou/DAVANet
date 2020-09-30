@@ -45,7 +45,7 @@ def test_dispnet(cfg, epoch_idx, test_data_loader, dispnet, test_writer):
             # Test the decoder
             torch.cuda.synchronize()
             test_time_start = time()
-            output_disps = dispnet(imgs)[0]
+            output_disps = dispnet(imgs)
             torch.cuda.synchronize()
             test_time.update(time() - test_time_start)
             print('[TIME] {0}'.format(test_time))
