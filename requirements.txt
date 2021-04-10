@@ -1,12 +1,11 @@
 argparse
 easydict
-json
 numpy
 matplotlib
 scipy
-opencv-python
-pprint
-torchvision
+opencv-python==4.0.0.21
+torch==0.4.1
+torchvision==0.2.0
 tensorboardX
 OpenEXR
 pyexr
