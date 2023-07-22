@@ -4,7 +4,7 @@ numpy
 matplotlib
 scipy
 opencv-python==4.0.0.21
-torch==0.4.1
+torch==1.13.1
 torchvision==0.2.0
 tensorboardX
 OpenEXR
